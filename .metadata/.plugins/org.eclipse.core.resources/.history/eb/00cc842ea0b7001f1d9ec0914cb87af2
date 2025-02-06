@@ -1,0 +1,37 @@
+package Pruebas;
+import java.util.Scanner;
+public class reto {
+public static void main(String[] args) {
+	String estafundido;
+	Scanner fundido=new Scanner(System.in);
+	int luces=0;
+	int contadornofundido=0;
+	int contadorfundido=0;
+	for(luces=0; luces==10 ;luces++);{
+		System.out.println("Esta fundido?");
+		estafundido=fundido.next();
+		if(estafundido.equals("S") | estafundido.equals("s"))  {
+			contadorfundido++;
+			System.out.println("Esta fundido?");
+
+		}
+		else if(estafundido.equals("N") | estafundido.equals("n")) {
+			contadornofundido++;
+			System.out.println("Esta fundido?");
+
+		}
+		else {
+			System.out.println("Quillo ayudame (S/N)");
+			estafundido=fundido.next();
+
+		}
+		 
+	}
+	if (contadorfundido>5) {
+		System.out.println("Nos devuelven el dinero");
+	}
+	else {
+		System.out.println("No compramos más aquí");
+	}
+}
+}

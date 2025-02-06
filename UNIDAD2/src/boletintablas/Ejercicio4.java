@@ -1,0 +1,27 @@
+package boletintablas;
+
+import Pruebas.tabla;
+
+public class Ejercicio4 {
+	public static void main(String[] args) {
+
+		int tabla1[] = { 1, 4, 2, 5 };
+		int tabla2[] = { 1, 4, 2, 2 };
+
+		boolean condicion = true;
+		int i = 0;
+
+		while (condicion) {
+			if (tabla1[i] == tabla2[i]) {
+				condicion = true;
+				i++;
+
+			} else {
+				condicion = false;
+			}
+
+		
+		}
+		System.out.println(condicion);
+	}
+}

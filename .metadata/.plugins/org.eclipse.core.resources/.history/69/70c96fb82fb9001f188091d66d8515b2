@@ -1,0 +1,24 @@
+package boletintablas;
+
+import Pruebas.tabla;
+
+public class Ejercicio4 {
+public static void main(String[] args) {
+	
+	int tabla1[]= {1,4,2,5};
+	int tabla2[]= {1,4,5,2};
+	
+	
+	int i=0;
+	
+	while(i<tabla1.length && i< tabla2.length) {
+	 if (tabla1[i]==tabla2[i]) {
+		 
+		 System.out.println("Estos son iguales. Posición" + i);
+		 i++;
+	 }
+	}
+	
+	
+}
+}

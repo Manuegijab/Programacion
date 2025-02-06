@@ -1,0 +1,24 @@
+package Pruebas;
+import java.util.Scanner;
+public class Renos {
+public static void main(String[] args) {
+	int nieve;
+	int i=0;
+	String almoadilla="#";
+	String pista="";
+
+	Scanner usuarioreno= new Scanner(System.in);
+	System.out.println("Dime longitud de pista:");
+	nieve=usuarioreno.nextInt();
+	
+
+	while (nieve > i){
+		
+	pista= pista+almoadilla;
+	i++;
+	}
+	System.out.println("@"+pista+"@");
+	}
+
+
+}

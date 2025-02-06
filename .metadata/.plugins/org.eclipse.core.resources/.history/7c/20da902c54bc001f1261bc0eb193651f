@@ -1,0 +1,13 @@
+package Funciones;
+
+public class grinch {
+public static void main(String[] args) {
+
+	grinch pedro= new grinch();
+	
+	String []quitahackeo(){
+		String [] ficheros = new String[20];
+		
+		return ficheros;
+	}
+}

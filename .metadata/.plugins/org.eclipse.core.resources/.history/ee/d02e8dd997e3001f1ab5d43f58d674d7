@@ -1,0 +1,22 @@
+package Pruebas;
+
+public class Personas {
+String nombre;
+String apellidos;
+String dni;
+
+public Personas(String nombre, String apellidos, String dni) {
+	super();
+	this.nombre = nombre;
+	this.apellidos = apellidos;
+	this.dni = dni;
+	
+}
+
+@Override
+public String toString() {
+	return "Personas [nombre=" + nombre + ", apellidos=" + apellidos + ", dni=" + dni + "]";
+}
+
+
+}

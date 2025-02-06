@@ -1,0 +1,31 @@
+package Boletin4orientadoaobjetos;
+
+public class Gatos {
+String color;
+String raza;
+String sexo;
+int edad;
+float peso;
+String comida;
+
+void gatomaulla () {
+	
+	System.out.println("miauuuuu");
+}
+String comegato (Gatos g1) {
+	String satisfaccion;
+	if(comida.equals("pescado")) {
+		 satisfaccion="Yummy yummy";
+	}
+	else {
+		 satisfaccion="buahhh, mejor no";
+	}
+	return satisfaccion;
+}
+
+void ronronea() {
+	System.out.println("rrrrr");
+	}
+
+
+}
