@@ -29,7 +29,7 @@ void imprimeganador() {
 	for (int i=0;i<participantes.length;i++) {
 		Participante p= participantes[i];
 		if(puntuacionmaxima==p.puntuacion) {
-			System.out.println("El jugador con mas puntuacion en el juego es "+ p.nombre + " con " + p.puntuacion + " puntos");
+			System.out.println("El jugador con mas puntuacion es "+ p.nombre + " con " + p.puntuacion + " puntos");
 			ganador=p.nombre;
 		}
 	}
