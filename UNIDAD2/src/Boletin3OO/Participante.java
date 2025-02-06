@@ -1,10 +1,52 @@
 package Boletin3OO;
 
 public class Participante {
-String nick;
-String nombre;
-int edad;
-int puntuacion;
+	private String nick;
+	private String nombre;
+	private int edad;
+	private int puntuacion;
+
+	
+	
+
+public String getNick() {
+		return nick;
+	}
+
+
+	public void setNick(String nick) {
+		this.nick = nick;
+	}
+
+
+	public String getNombre() {
+		return nombre;
+	}
+
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+
+	public int getEdad() {
+		return edad;
+	}
+
+
+	public void setEdad(int edad) {
+		this.edad = edad;
+	}
+
+
+	public int getPuntuacion() {
+		return puntuacion;
+	}
+
+
+	public void setPuntuacion(int puntuacion) {
+		this.puntuacion = puntuacion;
+	}
 
 
 public Participante(String nick, String nombre, int edad, int puntuacion) {
@@ -22,5 +64,8 @@ public String toString() {
 }
 
 
-	
 }
+
+
+	
+

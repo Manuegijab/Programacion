@@ -1,0 +1,47 @@
+package Boletin3OO;
+
+public class Partida {
+String nombrejuego;
+Participante[] participantes;
+String ganador;
+
+
+public Partida(String nombrejuego, Participante[] participantes) {
+	super();
+	this.nombrejuego = nombrejuego;
+	this.participantes = participantes;
+}
+
+private int jugadorconmayorpuntuacion() {
+	int puntuacionmaxima=0;
+	for(Participante p: participantes) {
+		if (puntuacionmaxima<p.puntuacion) {
+			puntuacionmaxima=p.puntuacion;
+		}
+	}
+	return puntuacionmaxima;
+	
+}
+
+void imprimeganador() {
+	int puntuacionmaxima=jugadorconmayorpuntuacion();
+
+	for (int i=0;i<participantes.length;i++) {
+		Participante p= participantes[i];
+		if(puntuacionmaxima==p.puntuacion) {
+			System.out.println("El jugador con mas puntuacion es "+ p.nombre + " con " + p.puntuacion + " puntos");
+			ganador=p.nombre;
+		}
+	}
+	
+	
+}
+
+@Override
+public String toString() {
+	String ganador;
+	return "Partida [nombrejuego=" + nombrejuego + ", participantes=" + participantes + "]";
+}
+
+
+}
