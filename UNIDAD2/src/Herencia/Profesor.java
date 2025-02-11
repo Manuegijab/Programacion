@@ -3,6 +3,19 @@ package Herencia;
 public class Profesor extends Persona {
 	
 private String nombredepartamento;
+private double sueldo;
+
+
+
+ double getSueldo() {
+	return sueldo;
+}
+
+
+
+ void setSueldo(double sueldo) {
+	this.sueldo = sueldo;
+}
 
 
 

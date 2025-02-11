@@ -17,5 +17,10 @@ public static void main(String[] args) {
 	Profesor titular2= new ProfesorTitular("Antonia", "Lengua", LocalDate.now().minusYears(2));
 	ProfesorTitular t3= (ProfesorTitular) titular2;
 	System.out.println(t3.getFechaAdjudicacionPlaza());
+	
+	Profesor p4= (Profesor)interino1; //Up casting de hijo convierto a padre
+	System.out.println(p4.getSueldo());
+	
+	ProfesorTitular p5 = (ProfesorTitular) interino2;
 }
 }
