@@ -1,7 +1,7 @@
-<<<<<<< HEAD
-=======
+=\=\=\=\=\=\=
+<<<<<<<=HEAD
+>>>>>>>=74fc78399c85d00fa9dcf9463a0e569470579fc3
 LexicalSortingAction.isChecked=true
->>>>>>> 74fc78399c85d00fa9dcf9463a0e569470579fc3
 content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.time.temporal.Temporal"><rhs name\="java.time.LocalDate"/></lhs><lhs name\="java.time.temporal.TemporalAccessor"><rhs name\="java.time.LocalDate"/></lhs><lhs name\="java.time.temporal.TemporalAdjuster"><rhs name\="java.time.LocalDate"/></lhs><lhs name\="java.time.chrono.ChronoLocalDate"><rhs name\="java.time.LocalDate"/></lhs></history>
 content_assist_number_of_computers=20
 eclipse.preferences.version=1
