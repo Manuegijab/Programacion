@@ -1,32 +1,41 @@
 package Boletin3OO;
 
 public class Automoviles extends Vehiculo {
-    private String calificacinEcologica;
-
-    // Constructor
-    public Automoviles(String dueno, int numpuertas, int numruedas, String calificacinEcologica) {
-        super(dueno, numpuertas, numruedas);  // Llamar al constructor de la clase base
-        this.calificacinEcologica = calificacinEcologica;
+    private Calificacionecologica calificacinEcologica;
+    
+    public enum Calificacionecologica {
+    	ECO,O,C,B
+    	
     }
+    
+    public Automoviles(String dueno, int numpuertas, int numruedas, Calificacionecologica calificacinEcologica) {
+		super(dueno, numpuertas, numruedas);
+		this.calificacinEcologica = calificacinEcologica;
+		
+	}
 
-    // Getter y setter
-    public String getCalificacinEcologica() {
-        return calificacinEcologica;
-    }
 
-    public void setCalificacinEcologica(String calificacinEcologica) {
-        this.calificacinEcologica = calificacinEcologica;
-    }
+	public Calificacionecologica getCalificacinEcologica() {
+		return calificacinEcologica;
+	}
 
-    @Override
+
+	public void setCalificacinEcologica(Calificacionecologica calificacinEcologica) {
+		if (calificacinEcologica.equals(calificacinEcologica.ECO) || calificacinEcologica.equals(calificacinEcologica.O) || calificacinEcologica.equals(calificacinEcologica.C) || calificacinEcologica.equals(calificacinEcologica.B) ){
+			this.calificacinEcologica = calificacinEcologica;
+		}
+	}
+
+
+	@Override
     public String toString() {
-        return super.toString() + ", calificacinEcologica=" + calificacinEcologica + "]";
+        return toString() + ", calificacinEcologica=" + calificacinEcologica + "]";
     }
 
-    // Implementación de la lógica específica
+    
     @Override
     public boolean tienelicenciaparacircular(String ciudad) {
-        // Implementa lógica específica si es necesario
-        return false;  // Ejemplo básico
+      
+        return false; 
     }
 }

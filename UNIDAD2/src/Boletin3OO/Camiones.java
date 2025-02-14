@@ -1,6 +1,6 @@
 package Boletin3OO;
 
-//Clase Camion que hereda de Vehiculo
+
 public class Camiones extends Vehiculo {
  private int tonelajekilos;
  private int numpasajeros;
@@ -8,7 +8,7 @@ public class Camiones extends Vehiculo {
 
  // Constructor
  public Camiones(String dueno, int numpuertas, int numruedas, int tonelajekilos, int numpasajeros, int numejes) {
-     super(dueno, numpuertas, numruedas);  // Llamar al constructor de la clase base
+     super(dueno, numpuertas, numruedas); 
      this.tonelajekilos = tonelajekilos;
      this.numpasajeros = numpasajeros;
      this.numejes = numejes;
