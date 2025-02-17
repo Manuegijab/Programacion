@@ -5,7 +5,7 @@ import java.util.Objects;
 public class Sensor {
 private double distancia;
 
-private double velocidad;
+private double velocidad; 
 
 public Sensor(double distancia, double velocidad) {
 	super();
