@@ -50,7 +50,7 @@ public double getSalariobase() {
 
 
 public void setSalariobase(double salariobase) {
-	if (salariobase<0) {
+	if (salariobase>0) {
 	this.salariobase = salariobase;
 }
 	else{
@@ -61,9 +61,6 @@ public void setSalariobase(double salariobase) {
 
 
 
-boolean soniguales (String dni) {
-	return Objects.equals(this.dni, dni);
-}
 
 
 
@@ -85,8 +82,7 @@ public boolean equals(Object obj) {
 	if (getClass() != obj.getClass())
 		return false;
 	Empleado other = (Empleado) obj;
-	return Objects.equals(dni, other.dni) && Objects.equals(nombre, other.nombre)
-			&& Double.doubleToLongBits(salariobase) == Double.doubleToLongBits(other.salariobase);
+	return Objects.equals(dni, other.dni);
 }
 
 
