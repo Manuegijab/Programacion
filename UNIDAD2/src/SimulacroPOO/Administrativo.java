@@ -10,7 +10,7 @@ private double extraproductividad;
 
 
 
-public Administrativo(String nombre, String dni, float salariobase, double extraproductividad) {
+public Administrativo(String nombre, String dni, float salariobase) {
 	super(nombre, dni, salariobase);
 	this.extraproductividad = extraproductividad;
 }
@@ -24,6 +24,8 @@ double calcularsalario (double extraproductividad) {
 }
 
 public double getExtraproductividad() {
+	System.out.println("ola");
+
 	return extraproductividad;
 }
 
