@@ -7,4 +7,6 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="BoletinPOO2.Equipo"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="BoletinPOO2.Estado"/>
+    <fullyQualifiedTypeName name="BoletinPOO2.Criticidad"/>
 </qualifiedTypeNameHistroy>

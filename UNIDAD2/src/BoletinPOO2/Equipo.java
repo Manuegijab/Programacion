@@ -7,7 +7,7 @@ private String nombre;
 private String direccionmac;
 private String sistemaoperativo;
 private int incidentes=0;
-
+private Usuario usuarionombre;
 
 public Equipo(String nombre, String direccionmac, String sistemaoperativo) {
 	super();
@@ -19,12 +19,22 @@ public Equipo(String nombre, String direccionmac, String sistemaoperativo) {
 
 @Override
 public String toString() {
-	return nombre + "-" + direccionmac +":"+ incidentes;
+	return nombre + " - " + direccionmac +" : "+ incidentes + " - " + usuarionombre.getNombre(); 
 }
 
 
 public String getNombre() {
 	return nombre;
+}
+
+
+protected Usuario getUsuarionombre() {
+	return usuarionombre;
+}
+
+
+protected void setUsuarionombre(Usuario usuarionombre) {
+	this.usuarionombre = usuarionombre;
 }
 
 
