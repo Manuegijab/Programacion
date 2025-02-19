@@ -17,10 +17,10 @@ public Administrativo(String nombre, String dni, float salariobase, double extra
 		
 	}
 
-double calcularsalario () {
+public double calcularsalario () {
 	double salarioañadir= extraproductividad + getSalariobase();
-	double salariototal= salarioañadir + getSalariobase();
-	return salariototal;
+
+	return salarioañadir;
 	
 }
 
@@ -34,10 +34,7 @@ public void setExtraproductividad() {
 	this.extraproductividad = extraproductividad;
 }
 
-@Override
-public String toString() {
-	return "DNI " + getDni() + " -Nombre: " + getNombre()+ " -Salario " + calcularsalario();
-}
+
 
 @Override
 public int hashCode() {

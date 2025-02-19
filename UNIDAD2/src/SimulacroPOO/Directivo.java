@@ -37,7 +37,7 @@ public void setBonificacionsalario(double bonificacionsalario) {
 
 
 
-double calcularsalario () {
+public double calcularsalario () {
 	double salarioañadir =  (getSalariobase()*bonificacionsalario)/100;
 	double salariototal= getSalariobase()+salarioañadir;
 	return salariototal;
@@ -46,10 +46,8 @@ double calcularsalario () {
 
 
 
-@Override
-public String toString() {
-	return "DNI " + getDni() + " -Nombre: " + getNombre()+ " -Salario " + calcularsalario();
-}
+
+
 
 
 

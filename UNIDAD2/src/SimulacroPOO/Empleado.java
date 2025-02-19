@@ -85,12 +85,19 @@ public boolean equals(Object obj) {
 	return Objects.equals(dni, other.dni);
 }
 
-
+public double calcularsalario() {
+	return salariobase;
+}
 
 @Override
 public String toString() {
-	return "Empleado [nombre=" + nombre + ", dni=" + dni + ", salariobase=" + salariobase + "]";
+	return "DNI " + getDni() + " -Nombre: " + getNombre()+ " -Salario " + this.calcularsalario();
+
 }
+
+
+
+
 
 
 }
