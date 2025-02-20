@@ -6,7 +6,7 @@
     <fullyQualifiedTypeName name="Boletin3OO.Automoviles.Calificacionecologica"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="BoletinPOO2.Equipo"/>
-    <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="BoletinPOO2.Estado"/>
     <fullyQualifiedTypeName name="BoletinPOO2.Criticidad"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
 </qualifiedTypeNameHistroy>
