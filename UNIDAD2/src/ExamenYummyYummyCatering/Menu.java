@@ -51,7 +51,7 @@ protected double getPrecioventamenu() {
 	return precioventamenu;
 }
 protected void setPrecioventamenu(double precioventamenu) {
-	if(precioventamenu<preciocostemenu*130/100 || precioventamenu<0) {
+	if(precioventamenu>preciocostemenu*130/100 || precioventamenu<0) {
 		System.out.println("NO ES RENTABLE, MINIMO +30%");
 	}
 	else {

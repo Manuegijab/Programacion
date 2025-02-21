@@ -25,7 +25,13 @@ public String getDni() {
 
 
 public void setDni(String dni) {
-	this.dni = dni;
+	if(dni.matches("\\d{8}[A-Za-z]{1}")) {
+		this.dni = dni;
+
+	}
+	else {
+		System.out.println("ERROR: No es valido");
+	}
 }
 
 
