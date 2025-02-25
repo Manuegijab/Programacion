@@ -4,9 +4,10 @@
     <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="Boletin3OO.Calificacionecologica"/>
     <fullyQualifiedTypeName name="Boletin3OO.Automoviles.Calificacionecologica"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="BoletinPOO2.Equipo"/>
     <fullyQualifiedTypeName name="BoletinPOO2.Estado"/>
     <fullyQualifiedTypeName name="BoletinPOO2.Criticidad"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
