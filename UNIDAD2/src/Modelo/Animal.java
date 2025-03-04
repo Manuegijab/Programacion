@@ -1,9 +1,20 @@
 package Modelo;
 
+import java.time.LocalDate;
+
 public abstract class Animal {
-	public abstract String getSonidoEmite();
+	private String nombre;
+	private int edad;
+	private String estado;
+	private LocalDate fechaNacimiento;
 	
-	public abstract String getAlimento() ;
-		
+	
+	public abstract String muestra();
+	public LocalDate cumpleaños() {
+		return fechaNacimiento;
 	}
+	public boolean morir() {
+		return true;
+	}
+	public abstract boolean hablar();
 }

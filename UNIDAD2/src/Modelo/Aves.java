@@ -4,5 +4,5 @@ public abstract class Aves extends Mascotas {
 private boolean pico;
 private boolean vuela;
 
-
+public abstract boolean volar();
 }
