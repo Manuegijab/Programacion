@@ -11,7 +11,7 @@ public static void main(String[] args) {
 	Leon l1= new Leon();
 	
 	System.out.println(s1.huir(a1));
-	System.out.println(a1.atacar(r1));
+	System.out.println(a1.atacar(r1  ));
 }
 
 }
