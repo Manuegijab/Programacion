@@ -4,11 +4,14 @@ import Modelo.*;
 
 public class GestionaAnimal {
 public static void main(String[] args) {
-	Animal p1= new Perro();
-	Animal p2= new Gato();
-	System.out.println(p1.getAlimento());
-	System.out.println(p1.getSonidoEmite());
-
+	Serpiente s1= new Serpiente();
+	AvesRapaces a1= new AvesRapaces();
+	AvesRapaces a2= new AvesRapaces();
+	Roedor r1= new Roedor();
+	Leon l1= new Leon();
+	
+	System.out.println(s1.huir(a1));
+	System.out.println(a1.atacar(r1));
 }
 
 }

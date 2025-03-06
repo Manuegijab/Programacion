@@ -6,10 +6,7 @@ public class Gato extends Mascotas {
 	
 	private String color;
 	private boolean peloLargo;
-	public Gato(String nombre, int edad, String estado, LocalDate fechaNacimiento, String color, boolean peloLargo) {
-		this.color = color;
-		this.peloLargo = peloLargo;
-	}
+	
 	
 	@Override
 	public boolean habla() {

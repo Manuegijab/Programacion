@@ -2,19 +2,17 @@ package Modelo;
 
 import java.time.LocalDate;
 
-public abstract class Animal {
-	private String nombre;
-	private int edad;
-	private String estado;
-	private LocalDate fechaNacimiento;
+public abstract class Animal{
+	private String nombreespecie;
+	private TipoFamilia tipofamilia;
+	private String habita;
+	private Animal[] animalesquecome;
+	private Animal[] animalesporlosqueescomido;
 	
 	
-	public abstract String muestra();
-	public LocalDate cumpleaños() {
-		return fechaNacimiento;
-	}
-	public boolean morir() {
-		return true;
-	}
-	public abstract boolean hablar();
+	abstract boolean atacar(Animal a1);
+		
+	abstract boolean huir(Animal a1);
+		
+	
 }
