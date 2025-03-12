@@ -12,6 +12,8 @@ public static void main(String[] args) {
 	
 	System.out.println(s1.huir(a1));
 	System.out.println(a1.atacar(r1  ));
+	
+	System.out.println(l1.getClass().getName());
 }
 
 }
