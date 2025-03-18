@@ -2,5 +2,13 @@
 /Gestionaconversor.class
 /GestionaAnimal.class
 /GestionaFigura.class
+<<<<<<< HEAD
 /GestionaTiendadeAnimales.class
 /GestionaPersonaRefactoriza.class
+=======
+/GestionaPersonaRefactoriza.class
+/GestionaTiendadeAnimales.class
+/GestionaPagos.class
+>>>>>>> cc1e455a8fcd96dc2ce53ac77504e96ae422e9c9
+/GestionaExcepcion.class
+/CreateNewFi.class

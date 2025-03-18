@@ -11,6 +11,7 @@
 /Aves.class
 /Loro.class
 /Canario.class
+<<<<<<< HEAD
 /Robots.class
 /Estado.class
 /RobotSoldador.class
@@ -38,3 +39,38 @@
 /Emplead.class
 /Cliente.class
 /TesteadorQA.class
+=======
+/Accion.class
+/AvesRapaces.class
+/Cliente.class
+/Coloreable.class
+/Emplead.class
+/Empleado.class
+/Estado.class
+/Estudiante.class
+/ICanino.class
+/Leon.class
+/Libro.class
+/Mascota.class
+/Mueble.class
+/Multimedia.class
+/Peliculas.class
+/PersonaRefactoriza.class
+/Prestable.class
+/Recurso.class
+/RobotSoldador.class
+/Robots.class
+/Roedor.class
+/SerVivo.class
+/Serpiente.class
+/TesteadorQA.class
+/TipoFamilia.class
+/Transportable.class
+/IPago.class
+/Divisa.class
+/EstadoPago.class
+/Pago.class
+/Tienda.class
+>>>>>>> cc1e455a8fcd96dc2ce53ac77504e96ae422e9c9
+/generaExcepcion.class
+/Divisiones1al10.class
