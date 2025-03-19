@@ -85,3 +85,8 @@
 >>>>>>> 202787978ac5eb3c48848f35cd37d0e4c40cdd29
 /VGeneral.class
 /Alquiler.class
+/VehiculoCombustible.class
+/Coche.class
+/Furgoneta.class
+/IAlquilable.class
+/Patinete.class

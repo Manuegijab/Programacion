@@ -15,11 +15,51 @@ public abstract class Alquiler {
 	LocalDate fecharegistro;
 	int numdias;
 	Estado estado;
+
 	
 	public  float getpreciopordia() {
 		
+		int preciobase=0;
+		float preciopordia=0;
+		if ( this.datosvehiculo instanceof Furgoneta) {
+			preciobase=45;
+			preciopordia= (float) (preciobase + ((Furgoneta) datosvehiculo).getPma() * 0.05);
+		}
+		
+		else if (this.datosvehiculo instanceof Coche) {
+			preciobase=40;
+			preciopordia= preciobase;
+		}
+		else if ( this.datosvehiculo instanceof Patinete) {
+			preciobase=50;
+			preciopordia= preciobase;
+		}
+		return preciopordia;
 	}
-	public  float getimportegenerado()
+	public  float getimportegenerado() {
+		
+		int diasalquilados = fechainicio.getDayOfYear() - fechaentrega.getDayOfYear();
+		float importe=0;
+		float preciopordia=0;
+		
+		if ( this.datosvehiculo instanceof Furgoneta) {
+			  importe= (float) (getpreciopordia() + ((Furgoneta) datosvehiculo).getPma() * 0.05);
+		}
+		
+		else if ( datosvehiculo instanceof Coche) {
+			importe= getpreciopordia()*diasalquilados;
+		}
+		else if ( this.datosvehiculo instanceof Patinete) {
+			
+			for(int i = 2; diasalquilados>i ; i++){
+				
+				importe= getpreciopordia()+ 30;
+				
+			}
+		}
+		return importe;
+		
+	}
 	
 	@Override
 	public boolean equals(Object obj) {
