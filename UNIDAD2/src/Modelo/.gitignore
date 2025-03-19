@@ -71,6 +71,17 @@
 /EstadoPago.class
 /Pago.class
 /Tienda.class
+<<<<<<< HEAD
 >>>>>>> cc1e455a8fcd96dc2ce53ac77504e96ae422e9c9
 /generaExcepcion.class
 /Divisiones1al10.class
+=======
+/INomina.class
+/AEmpleado.class
+/Categoria.class
+/Desarrolador.class
+/JefeProyecto.class
+/Proyecto.class
+>>>>>>> 202787978ac5eb3c48848f35cd37d0e4c40cdd29
+/VGeneral.class
+/Alquiler.class
