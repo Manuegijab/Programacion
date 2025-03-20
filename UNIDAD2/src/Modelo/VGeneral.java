@@ -27,6 +27,12 @@ public abstract class VGeneral implements IAlquilable{
 		this.estaDisponible = estaDisponible;
 	}
 
+	public float getimportetotalgenerdo() {
+		float importetotal=0;
+		for (Alquiler a : getAlquiler()) {
+			if (a.getEstado())
+		}
+	}
 	}
 	
 	

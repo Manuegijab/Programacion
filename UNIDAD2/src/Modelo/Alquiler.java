@@ -38,7 +38,7 @@ public abstract class Alquiler {
 	}
 	public  float getimportegenerado() {
 		
-		int diasalquilados = fechainicio.getDayOfYear() - fechaentrega.getDayOfYear();
+		int diasalquilados = this.numdias;
 		float importe=0;
 		float preciopordia=0;
 		
@@ -51,16 +51,69 @@ public abstract class Alquiler {
 		}
 		else if ( this.datosvehiculo instanceof Patinete) {
 			
-			for(int i = 2; diasalquilados>i ; i++){
-				
-				importe= getpreciopordia()+ 30;
+			importe= getpreciopordia()+30*(numdias-1);
 				
 			}
-		}
+		
 		return importe;
 		
-	}
+}
 	
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public VGeneral getDatosvehiculo() {
+		return datosvehiculo;
+	}
+	public void setDatosvehiculo(VGeneral datosvehiculo) {
+		this.datosvehiculo = datosvehiculo;
+	}
+	public int getPermisocirculacion() {
+		return permisocirculacion;
+	}
+	public void setPermisocirculacion(int permisocirculacion) {
+		this.permisocirculacion = permisocirculacion;
+	}
+	public String getDni() {
+		return dni;
+	}
+	public void setDni(String dni) {
+		this.dni = dni;
+	}
+	public LocalDate getFechainicio() {
+		return fechainicio;
+	}
+	public void setFechainicio(LocalDate fechainicio) {
+		this.fechainicio = fechainicio;
+	}
+	public LocalDate getFechaentrega() {
+		return fechaentrega;
+	}
+	public void setFechaentrega(LocalDate fechaentrega) {
+		this.fechaentrega = fechaentrega;
+	}
+	public LocalDate getFecharegistro() {
+		return fecharegistro;
+	}
+	public void setFecharegistro(LocalDate fecharegistro) {
+		this.fecharegistro = fecharegistro;
+	}
+	public int getNumdias() {
+		return numdias;
+	}
+	public void setNumdias(int numdias) {
+		this.numdias = numdias;
+	}
+	public Estado getEstado() {
+		return estado;
+	}
+	public void setEstado(Estado estado) {
+		this.estado = estado;
+	}
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)

@@ -16,7 +16,7 @@ public class Patinete extends VGeneral{
 	
 	@Override
 	public boolean estaAlquilable() {
-		if
+		if (getAlquiler().g)
 
 		return false;
 	}
