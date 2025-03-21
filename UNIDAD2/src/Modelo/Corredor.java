@@ -1,6 +1,11 @@
 package Modelo;
 
-public class Nadador extends Deportista {
+public class Corredor extends Deportista{
+
+	public Corredor(String nombre, String pais, int edad, double peso, double altura) {
+		super(nombre, pais, edad, peso, altura);
+		// TODO Auto-generated constructor stub
+	}
 
 	@Override
 	public void competir() {

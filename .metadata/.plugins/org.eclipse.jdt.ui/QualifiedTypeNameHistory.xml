@@ -7,9 +7,10 @@
     <fullyQualifiedTypeName name="BoletinPOO2.Equipo"/>
     <fullyQualifiedTypeName name="BoletinPOO2.Estado"/>
     <fullyQualifiedTypeName name="BoletinPOO2.Criticidad"/>
-    <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="Modelo.Accion"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="Modelo.EstadoPrueba"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
 </qualifiedTypeNameHistroy>
