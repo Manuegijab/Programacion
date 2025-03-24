@@ -3,9 +3,9 @@ package Modelo;
 import java.time.LocalDate;
 import java.util.Objects;
 
-public abstract class Alquiler {
-
-	int id ;
+public  class Alquiler {
+    static int contador;  
+	int  id ;
 	VGeneral datosvehiculo;
 	int permisocirculacion;
 	String dni;
@@ -17,6 +17,20 @@ public abstract class Alquiler {
 	Estado estado;
 
 	
+	public Alquiler( VGeneral datosvehiculo, int permisocirculacion, String dni, LocalDate fechainicio,
+			LocalDate fechaentrega, LocalDate fecharegistro, int numdias, Estado estado) {
+		super();
+		this.id = contador +1 ;
+		contador= contador +1;
+		this.datosvehiculo = datosvehiculo;
+		this.permisocirculacion = permisocirculacion;
+		this.dni = dni;
+		this.fechainicio = fechainicio;
+		this.fechaentrega = fechaentrega;
+		this.fecharegistro = fecharegistro;
+		this.numdias = numdias;
+		this.estado = estado;
+	}
 	public  float getpreciopordia() {
 		
 		int preciobase=0;

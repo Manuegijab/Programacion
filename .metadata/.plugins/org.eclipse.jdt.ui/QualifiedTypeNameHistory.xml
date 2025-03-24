@@ -13,4 +13,8 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="Modelo.EstadoPrueba"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="Modelo.Alquiler"/>
+    <fullyQualifiedTypeName name="Modelo.VGeneral"/>
+    <fullyQualifiedTypeName name="Modelo.VehiculoCombustible"/>
+    <fullyQualifiedTypeName name="Modelo.Furgoneta"/>
 </qualifiedTypeNameHistroy>
