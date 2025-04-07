@@ -17,4 +17,7 @@
     <fullyQualifiedTypeName name="Modelo.VGeneral"/>
     <fullyQualifiedTypeName name="Modelo.VehiculoCombustible"/>
     <fullyQualifiedTypeName name="Modelo.Furgoneta"/>
+    <fullyQualifiedTypeName name="java.security.KeyStore.Entry"/>
+    <fullyQualifiedTypeName name="java.security.KeyStore.Entry.Attribute"/>
+    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
 </qualifiedTypeNameHistroy>
